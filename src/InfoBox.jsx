@@ -38,8 +38,8 @@ export default function InfoBox({ info }) {
               component={"span"}
             >
               <p>Temperature = {info.temp} &deg;C</p>
-              <p>Temp Max = {info.tempMax} &deg;C </p>
-              <p>Temp Min = {info.tempMin} &deg;C </p>
+              <p>Temp Max = {info.tempMAX} &deg;C </p>
+              <p>Temp Min = {info.tempMIN} &deg;C </p>
               <p>Humidity = {info.humidity} &deg;C </p>
               {/* <p>feels_like = {info.feelslike} &deg;C </p> */}
               {/* <p>Weather = {info.weather} </p> */}
